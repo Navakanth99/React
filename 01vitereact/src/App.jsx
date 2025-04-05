@@ -1,8 +1,12 @@
+import Chai from "./chai"
 
 function App() {
-  
+  const ele = "its so tasty"
   return (
-   <h1>hello world from vite</h1>
+    <>
+      <Chai/>
+      <h1>I'm driking chai {ele}</h1>
+    </>
   )
 }
 
