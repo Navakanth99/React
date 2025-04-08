@@ -7,7 +7,9 @@ function App() {
 
   const addValue =() => {
     console.log("value is ", counter)
-    counter=counter+1;
+    if(counter<20){
+      counter=counter+1;
+    }
     setState(counter)
   }
 
