@@ -6,11 +6,11 @@ function App() {
   let [counter, setState] =useState(5)
 
   const addValue =() => {
-    console.log("value is ", counter)
-    if(counter<20){
-      counter=counter+1;
-    }
-    setState(counter)
+   setState(prevCounter => prevCounter+1);
+   setState(prevCounter => prevCounter+1);
+   setState(prevCounter => prevCounter+1);
+   setState(prevCounter => prevCounter+1);
+
   }
 
   const removeValue = () => {
